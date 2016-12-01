@@ -3,6 +3,7 @@ import {readDocument, writeDocument, addDocument, deleteDocument, getCollection}
 /**
 * Emulates how a REST call is *asynchronous* -- it calls your function back
 * some time in the future with data.
+*added a new line to rename commit
 */
 function emulateServerReturn(data, cb) {
   setTimeout(() => {
